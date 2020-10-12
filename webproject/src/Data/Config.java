@@ -8,7 +8,7 @@ import javax.sql.DataSource;
 public class Config {
     static final String jdburl="jdbc:mysql://localhost/dvwa?useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai";
     static final  String jdbuser = "root";
-    static final String jdbpassword = "EASYEASY12345";
+    static final String jdbpassword = "12345";
     public static DataSource getConnection(){
         HikariConfig config = new HikariConfig();
         config.setJdbcUrl(jdburl);
